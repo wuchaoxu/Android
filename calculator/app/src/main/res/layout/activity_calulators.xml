@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:layout_weight="1">
+        <Button
+            android:text="清除"
+            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:id="@+id/clear_text"
+            android:textSize="25sp"
+            android:layout_gravity="right"
+            >
+        </Button>
+    </TableRow>
+        <EditText
+            android:id="@+id/wcx"
+            android:height="300dp"
+            android:layout_width="match_parent"
+            android:textAlignment="viewEnd"
+            android:textSize="30sp"
+            android:layout_weight="5"
+            android:gravity="end">
+        </EditText>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_weight="1"
+                android:background="@color/purple_200"
+                android:text="1" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_weight="1"
+                android:text="2"
+                android:background="#EF9F00"
+                ></Button>
+            <Button
+                android:id="@+id/button3"
+                android:layout_weight="1"
+                android:text="3"
+                ></Button>
+            <Button
+                android:id="@+id/button_sub"
+                android:layout_weight="1"
+                android:text="-"
+                ></Button>
+        </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:text="4"
+            ></Button>
+        <Button
+            android:id="@+id/button5"
+            android:layout_weight="1"
+            android:text="5"
+
+            ></Button>
+        <Button
+            android:id="@+id/button6"
+            android:layout_weight="1"
+            android:text="6"
+            ></Button>
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_weight="1"
+            android:text="+"
+            ></Button>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button7"
+            android:layout_weight="1"
+            android:text="7"
+            ></Button>
+        <Button
+            android:id="@+id/button8"
+            android:layout_weight="1"
+            android:text="8"
+
+            ></Button>
+        <Button
+            android:id="@+id/button9"
+            android:layout_weight="1"
+            android:text="9"
+            ></Button>
+        <Button
+            android:id="@+id/button_mu"
+            android:layout_weight="1"
+            android:text="x"
+            ></Button>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_weight="1"
+            android:text="delete"
+            ></Button>
+        <Button
+            android:id="@+id/button0"
+            android:layout_weight="1"
+            android:text="0"
+
+            ></Button>
+        <Button
+            android:id="@+id/button_doc"
+            android:layout_weight="1"
+            android:text="."
+            ></Button>
+
+        <Button
+            android:id="@+id/button_chu"
+            android:layout_weight="1"
+            android:text="%"
+            ></Button>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button_output"
+            android:layout_weight="1"
+            android:text="="
+            android:textSize="30sp"
+            ></Button>
+    </TableRow>
+
+</TableLayout>
